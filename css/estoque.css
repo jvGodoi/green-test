@@ -345,8 +345,11 @@ body {
     box-shadow: none;
     /* padding: 25px 40px; */
     height: auto;
-    width: auto;
+    width: 100vw;
     margin-left: 0;
+  }
+  .estoque-produtos h2 {
+    font-size: 1.8rem;
   }
 
   .produtos-filtro {
@@ -354,7 +357,7 @@ body {
     justify-content: space-between;
   }
   .btn-pesquisa[type="search"] {
-    width: 300px;
+    width: 200px;
   }
 
   .estoque-produtos--status ul {
@@ -367,7 +370,11 @@ body {
   }
 
   .estoque-cabecalho {
-    padding: 70px 40px;
+    padding: 70px 25px;
+    width: 100vw;
+  }
+  .estoque-cabecalho h1 {
+    font-size: 2.2rem;
   }
   .navegacao {
     width: 100%;
@@ -420,5 +427,6 @@ body {
 
   .estoque-produtos-tabela {
     width: 100%;
+    overflow: scroll;
   }
 }

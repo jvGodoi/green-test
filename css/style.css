@@ -76,6 +76,14 @@ input {
     justify-content: center;
     grid-template-columns: 1fr;
   }
+  p,
+a,
+th,
+td,
+label,
+input {
+  font-size: 1.4rem;
+}
 }
 .voltar-login {
   color: #000;
