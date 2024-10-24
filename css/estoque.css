@@ -354,10 +354,17 @@ body {
 
   .produtos-filtro {
     width: 100%;
-    justify-content: space-between;
+    justify-content: normal;
   }
+
+  .btn-pesquisa {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+
   .btn-pesquisa[type="search"] {
-    width: 200px;
+    width: 100%;
   }
 
   .estoque-produtos--status ul {
